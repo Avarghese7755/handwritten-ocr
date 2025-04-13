@@ -1,0 +1,71 @@
+<!--
+    Filename: base.html
+    Author: Bhuwan Shrestha, Alen Varghese, Shubh Soni, and Dev Patel
+    Student ID: 8892146 ,8827755,8887735,8866936
+    Date: 2025-03-10
+    Project: Handwritten OCR | Capstone Project 2025
+    Course: Systems Project
+    Description:  DESCRIPTION: This is the main layout template for the Handwritten OCR web application
+                              It includes a responsive navigation bar, dynamic flash messaging, and content block rendering using Jinja2
+                              Tailwind CSS is used for styling, and user navigation is conditionally rendered based on authentication status
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Handwritten OCR App</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+
+        <!-- 
+      Navigation bar with conditional links for authenticated users and guests, styled using Tailwind CSS
+      Provides access to key pages like Login, Signup, Settings, History, References, and Logout
+      -->
+  <body class="bg-gray-100">
+    <nav class="bg-blue-600 p-4 text-white">
+      <div class="container mx-auto flex justify-between">
+        <a href="{{ url_for('index') }}" class="text-lg font-bold"
+          >Handwritten OCR</a
+        >
+        <div>
+          {% if current_user.is_authenticated %}
+          <a href="{{ url_for('settings') }}" class="mr-4">Settings</a>
+          <a href="{{ url_for('history') }}" class="mr-4">History</a>
+          <a href="{{ url_for('references') }}" class="mr-4">References</a>
+          <a href="{{ url_for('logout') }}">Logout</a>
+          {% else %}
+          <a href="{{ url_for('login') }}" class="mr-4">Login</a>
+          <a href="{{ url_for('signup') }}" class="mr-4">Signup</a>
+          <a href="{{ url_for('references') }}" class="mr-4">References</a>
+          {% endif %}
+        </div>
+      </div>
+    </nav>
+
+    <!-- 
+      Displays flash messages for success or error feedback and renders page-specific content via Jinja2's content block.
+      Helps provide user notifications and dynamic content injection within the base layout.
+-->
+
+    <div class="container mx-auto mt-6">
+      {% with messages = get_flashed_messages(with_categories=true) %} {% if
+      messages %} {% for category, message in messages %}
+      <div
+        class="p-4 mb-4 text-white {% if category == 'success' %}bg-green-500{% else %}bg-red-500{% endif %}"
+      >
+        {{ message }}
+      </div>
+      {% endfor %} {% endif %} {% endwith %} {% block content %}{% endblock %}
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  </body>
+</html>

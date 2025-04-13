@@ -1,0 +1,25 @@
+2025-04-12 22:49:54 - Account Created - Username: cc, Email: vite@gmail.com
+2025-04-12 22:50:00 - Login - IP: 127.0.0.1
+2025-04-12 22:50:33 - OCR Performed - File: 2.png
+2025-04-12 22:50:46 - Rating Submitted - Rating: 5/5 stars
+2025-04-12 22:51:00 - Viewed References Page
+2025-04-12 22:51:01 - Viewed Contact Page
+2025-04-12 22:51:02 - Viewed About Page
+2025-04-12 22:51:03 - Viewed History
+2025-04-13 17:01:30 - Login - IP: 127.0.0.1
+2025-04-13 17:01:44 - OCR Performed - File: 4.png
+2025-04-13 17:01:49 - Viewed History
+2025-04-13 17:01:51 - Viewed About Page
+2025-04-13 17:01:54 - Viewed References Page
+2025-04-13 17:02:00 - Viewed Settings Page
+2025-04-13 17:02:00 - Viewed Active Sessions
+2025-04-13 17:02:19 - Profile Update - Changed: username, email, password
+2025-04-13 17:02:19 - Viewed Settings Page
+2025-04-13 17:02:19 - Viewed Active Sessions
+2025-04-13 17:02:22 - Logout - IP: 127.0.0.1
+2025-04-13 17:02:40 - Login - IP: 127.0.0.1
+2025-04-13 17:02:44 - Viewed Settings Page
+2025-04-13 17:02:44 - Viewed Active Sessions
+2025-04-13 17:02:47 - 2FA Setting Changed - Enabled: True
+2025-04-13 17:02:49 - Activity Log Downloaded
+2025-04-13 17:03:01 - Logout - IP: 127.0.0.1

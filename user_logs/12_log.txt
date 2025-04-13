@@ -1,0 +1,5 @@
+2025-04-13 16:59:53 - Account Created - Username: dev, Email: dev@gmail.com
+2025-04-13 17:00:01 - Login - IP: 127.0.0.1
+2025-04-13 17:00:20 - OCR Performed - File: 3.png
+2025-04-13 17:00:37 - Rating Submitted - Rating: 5/5 stars
+2025-04-13 17:01:09 - Logout - IP: 127.0.0.1

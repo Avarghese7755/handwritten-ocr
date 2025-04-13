@@ -1,0 +1,46 @@
+2025-04-11 16:30:15 - Login - IP: 127.0.0.1
+2025-04-11 16:30:40 - OCR Performed - File: 4.png
+2025-04-11 16:30:52 - Translation - Language: ne
+2025-04-11 16:30:58 - Viewed History
+2025-04-11 16:31:03 - Downloaded History Record - Text from image: 4.png
+2025-04-11 16:33:08 - OCR Performed - File: 3.png
+2025-04-11 16:33:15 - Viewed History
+2025-04-11 16:34:24 - Logout - IP: 127.0.0.1
+2025-04-12 17:11:25 - Login - IP: 127.0.0.1
+2025-04-12 17:49:33 - Viewed Settings Page
+2025-04-12 17:49:33 - Viewed Active Sessions
+2025-04-12 17:49:44 - Profile Update - Changed: username, email, password
+2025-04-12 17:50:40 - Profile Update - Changed: username, email, password
+2025-04-12 17:50:40 - Viewed Settings Page
+2025-04-12 17:50:40 - Viewed Active Sessions
+2025-04-12 19:42:21 - OCR Performed - File: 1.png
+2025-04-12 19:42:37 - Rating Submitted - Rating: 5/5 stars
+2025-04-12 19:45:40 - OCR Performed - File: 1.png
+2025-04-12 19:46:00 - Logout - IP: 127.0.0.1
+2025-04-13 15:38:59 - Login - IP: 127.0.0.1
+2025-04-13 15:39:49 - OCR Performed - File: 3.png
+2025-04-13 15:39:59 - File Downloaded - Format: txt, Filename: aa
+2025-04-13 15:40:24 - File Downloaded - Format: txt, Filename: aa
+2025-04-13 15:40:52 - Translation - Language: zh-cn
+2025-04-13 15:40:59 - File Downloaded - Format: txt, Filename: d
+2025-04-13 15:41:18 - Rating Submitted - Rating: 5/5 stars
+2025-04-13 15:41:53 - Viewed History
+2025-04-13 15:42:18 - Viewed Settings Page
+2025-04-13 15:42:18 - Viewed Active Sessions
+2025-04-13 15:42:34 - Profile Update - Changed: username, email, password
+2025-04-13 15:42:34 - Viewed Settings Page
+2025-04-13 15:42:35 - Viewed Active Sessions
+2025-04-13 15:42:38 - Logout - IP: 127.0.0.1
+2025-04-13 15:45:18 - Login - IP: 127.0.0.1
+2025-04-13 15:45:23 - Viewed History
+2025-04-13 15:45:28 - Logout - IP: 127.0.0.1
+2025-04-13 16:41:16 - Login - IP: 127.0.0.1
+2025-04-13 16:44:06 - Logout - IP: 127.0.0.1
+2025-04-13 16:44:25 - Login - IP: 127.0.0.1
+2025-04-13 16:54:31 - Logout - IP: 127.0.0.1
+2025-04-13 16:54:44 - Login - IP: 127.0.0.1
+2025-04-13 16:55:26 - OCR Performed - File: 2.png
+2025-04-13 16:55:38 - Rating Submitted - Rating: 5/5 stars
+2025-04-13 16:59:19 - Logout - IP: 127.0.0.1
+2025-04-13 16:59:29 - Login - IP: 127.0.0.1
+2025-04-13 16:59:34 - Logout - IP: 127.0.0.1
