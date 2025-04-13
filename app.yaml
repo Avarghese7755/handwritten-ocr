@@ -1,0 +1,23 @@
+runtime: python310
+entrypoint: gunicorn -b :$PORT app:app
+
+env_variables:
+  GOOGLE_APPLICATION_CREDENTIALS: "lucid-diode-452919-p1-e5138e5e4227.json"
+ 
+beta_settings:
+   cloud_sql_instances: lucid-diode-452919-p1:us-central1:ocr-postgres-db
+
+handlers:
+  - url: /static
+    static_dir: static
+
+  - url: /.*
+    script: auto
+
+skip_files:
+  - ^user_logs$
+  - ^uploads$
+  - ^Test$
+  - ^venv$
+  - ^.*\.pyc$
+  - ^__pycache__$

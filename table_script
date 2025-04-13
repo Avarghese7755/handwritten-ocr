@@ -1,0 +1,46 @@
+ATABASE SCRIPT 
+
+CREATE TABLE users (
+    id SERIAL PRIMARY KEY,
+    username TEXT UNIQUE NOT NULL,
+    password TEXT NOT NULL,
+    gmail TEXT UNIQUE NOT NULL,
+    verified INTEGER DEFAULT 0
+);
+
+CREATE TABLE history (
+    id SERIAL PRIMARY KEY,
+    user_id INTEGER NOT NULL,
+    image TEXT NOT NULL,
+    text TEXT NOT NULL,
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE user_preferences (
+    user_id INTEGER PRIMARY KEY,
+    analytics INTEGER,
+    notifications INTEGER,
+    language TEXT
+);
+
+CREATE TABLE user_2fa (
+    user_id INTEGER PRIMARY KEY,
+    enabled INTEGER,
+    secret TEXT
+);
+
+CREATE TABLE user_sessions (
+    id SERIAL PRIMARY KEY,
+    user_id INTEGER,
+    session_id TEXT,
+    ip_address TEXT,
+    device_info TEXT,
+    last_active TIMESTAMP
+);
+
+CREATE TABLE feedback (
+    id SERIAL PRIMARY KEY,
+    user_id INTEGER,
+    rating INTEGER,
+    comment TEXT
+);
